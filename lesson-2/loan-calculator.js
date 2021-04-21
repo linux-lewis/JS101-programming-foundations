@@ -1,6 +1,8 @@
 // Require readline-sync and calculator_messages json file for use below
 const readline = require('readline-sync');
 const MESSAGES = require('./loan_messages.json');
+
+// Create variables for conversions
 const MONTHS_IN_YEAR = 12;
 const PERCENTAGE_MULTIPLIER = .01;
 
