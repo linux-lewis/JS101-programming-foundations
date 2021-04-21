@@ -1,0 +1,65 @@
+Problem 1: a function that returns the sum of two numbers 
+
+Given two numbers.
+
+Add the two numbers and return the output
+
+
+START
+
+# Given two integers called "num1" and "num2"
+
+SET output = num1 + num2
+
+PRINT output
+
+END
+
+
+
+Problem 2: a function that takes an array of strings, and returns a string that is all those strings concatenated together
+
+Given a collection of strings
+
+concatenate each string together
+
+return concatenated string
+
+
+START
+
+# Given a collection of strings called "strings"
+
+SET newString = READ strings and concatenate
+
+END
+
+
+Problem 3: a function that takes an array of integers, and returns a new array with every other element
+
+Given a collection of numbers called numbers
+
+Create a new variable as an empty array
+
+Iterate through the collection one by one
+  -for each iteration, add the value to the new array
+  -increment the loop in steps of 2 to only add every other value
+
+After iterating through the collection, return the new array
+
+
+START
+
+# Given a collection of integers called "numbers"
+
+SET newArray = empty array ([])
+SET iterator = 0
+
+WHILE iterator <= length of numbers
+  push value within numbers collection at space "iterator" to "newArray"
+
+  iterator = iterator + 2
+
+PRINT newArray
+
+END
